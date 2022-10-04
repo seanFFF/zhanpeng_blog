@@ -1,0 +1,19 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: "post"
+tittle: "second example"
+---
+
+For the second experiment I wanted to create a website where the buttons interact with the graphics, simply by using the start and pause buttons to control the corresponding movement of the graphics.
+The purpose of my js is to make a graphic move in position, so I need to have a switch to do this, (in order to prevent multiple timers from accumulating), and afterwards set some conditions by setting the motion of the object.
+The first thing is to set the movement variable, which is the speed at which the object moves (let speed=5)
+After that the core code for the movement of the element is set (div.style.left = num+'px')
+Finally, set the conditions for the movement of the object, so that if the movement distance is greater than the body width or less than 0, or if these two conditions are met, the object's speed variable takes the opposite value.
+
+
+This is the websiste link  [https://seanfff.github.io/SeanFFFA2-blog2/](https://seanfff.github.io/SeanFFFA2-blog2/)
+
+
+
