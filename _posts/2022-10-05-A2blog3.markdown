@@ -1,0 +1,28 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: "post"
+tittle: "Third example"
+---
+
+The third experiment was to create a magnifying glass of an image so that when the mouse hovered over a part of the image, a hover box would appear to magnify that part.
+I chose a game photo as the base image
+The overall goal of my js was to mouse over and a small div (masking layer) and a large div (display effect area) would appear on the image, mouse over and hide the small div, large div.
+To do this, first set that the small div moves in the opposite direction to the large one, after which I finish binding the mouse to the occlusion layer so that the mouse moves a distance greater than the distance the occlusion layer moves.
+After that the core of this magnifying glass function will be set, setting the whole magnifying glass function to exist in a ratio (small div/small image = large div/large image), (100 / 300 = 300 / 900).
+Finally the distance between the large and small boxes is set by judging the distance moved.
+Small div move distance
+            smallDiv.style.left = x+'px';
+            smallDiv.style.top = y+'px';
+ distance to move the big image
+            bigImg.style.left = -3*x+'px';
+            bigImg.style.top = -3*y+'px';
+
+
+
+
+This is the websiste link  [https://seanfff.github.io/seanFFFA2-blog3/](https://seanfff.github.io/seanFFFA2-blog3/)
+
+
+
