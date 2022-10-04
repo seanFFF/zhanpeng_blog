@@ -1,0 +1,17 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: "post"
+tittle: "fist example"
+---
+
+The first experiment was a cinema seat selection experiment. I set up the general framework of the page in css to create a cinema-like seat selection page.
+I made the box grey before it was clicked and orange after it was clicked.
+Then I set the box in Java, adding it and assigning a value to the text if there was no click class; otherwise, clearing the click class and leaving the text empty.
+
+This is the websiste link  [https://seanfff.github.io/seanFFF-A2-1.github.io/](https://seanfff.github.io/seanFFF-A2-1.github.io/)
+
+
+Here is the screenshot 
+![](https://gitee.com/seanFFF/A2picture/raw/master/png.jpg)
