@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        background-color: rgb(233, 232, 232);
+    }
+
+    .w {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .box1 {
+        width: 1200x;
+        height: 3000px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1-1 {
+        width: 1000px;
+        height: 2970px;
+        background-color: white;
+
+    }
+
+    .box1-1 h4 {
+        font-size: 32px;
+    }
+
+    .box1-1 p {
+        font-size: 20px;
+    }
+
+    .cc {
+        color: brown;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="A1.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="w">
+            <div class="box1">
+
+                <div class="box1-1">
+                    <h4>
+                        <strong>finall website(Random mapping of spheres)</strong>
+
+
+                    </h4>
+                    <p>1. 1.website link <a href="https://editor.p5js.org/seanFFF/sketches/L4wLK6nsB">Click here</a>
+                    </p>
+
+
+
+                    <p>
+
+
+                    <p>2.I decided that the final website would allow users to interact with it, for example by clicking
+                        on the screen to bring up something. So I put this idea into practice, mainly by using the
+                        random command in p5js.</p>
+                    <p>I wanted to interact with the screen by drawing circles with mouse clicks, so I set up these two
+                        commands first.</p>
+
+                    <p class="cc">function mousePressed(){</br>
+                        drawCircle();
+                    </p>
+
+
+                    <p>3.Afterwards, set up the draw circle command again, give the circle colours (hue, saturation,
+                        brightness, and opacity) via HSB, and set all four groups of colours to vary randomly between
+                        certain arrays, and combine all four colours together via the colour command.</p>
+                    <p class="cc"> let hue=random(hueMid-30,hueMid+30);</br>
+                        let sat=random(60,80);</br>
+                        let bri=random(60,80);</br>
+                        let alp=random(60,80);</br>
+                        let circleColor=color(hue,sat,bri,alp);</p>
+
+                    <p>
+                        4.Then set the coordinates and size of the circle, and also set it to random, after which
+                        the circle will appear by mouse click.</p>
+                    <p class="cc">
+                        let circleX=random(0,width);</br>
+                        let circleY=random(0,height);</br>
+
+                        let circleSize=random(10,50);</br>
+
+                        noStroke();</br>
+                        fill(circleColor);</br>
+                        circle(circleX,circleY,circleSize);</br>
+
+
+
+                    </p>
+
+                    <p>
+
+                        5.Since one circle at a time was a small number, I learnt a new command on the internet to
+                        make multiple circles appear at once, this command is a loop. So I set it up so that for
+                        i (which starts out as 0) when it is less than 5 i is added one at a time.</p>
+                    <p class="cc">
+                        for(let i = 0 ; i < 5 ; i=i + 1 ) </p>
+
+
+
+                            <p>
+
+                                6.Finally I wanted to change the way the mouse would appear in circles of different
+                                shades when I clicked on different areas of the screen, so I linked the coordinates
+                                of the mouse to the shades for the purpose of a shade cycle.</p>
+                            <p class="cc">
+
+                                function draw() {</br>
+                                hueMid=map(mouseX,0,width,30,330);
+                            </p>
+
+
+
+
+
+
+                            <p>7.Here is a my code</p>
+                            <p class="cc">
+                                let hueMid;</br>
+
+
+                                function setup() {</br>
+                                createCanvas(576, 324);</br>
+                                colorMode(HSB,360,100,100,100);</br>
+                                background(0);</br>
+                                textFont("华文彩云");</br>
+
+                                fill('hsl(160, 100%, 50%)')</br>
+
+                                stroke(300)</br>
+                                }</br>
+
+                                function draw() {</br>
+                                hueMid=map(mouseX,0,width,30,330);</br>
+                                textSize(64);</br>
+                                text("RMIT", 25, 60);</br>
+
+                                textSize(32);</br>
+                                text("Creative Coding Specialisation", 27, 90);</br>
+                                textSize(32);</br>
+
+                                }</br>
+
+                                function mousePressed(){</br>
+                                drawCircle();</br>
+
+                                }</br>
+
+                                function drawCircle(){</br>
+
+                                for(let i=0;i < 5 ;i=i + 1){ let hue=random(hueMid-30,hueMid+30); let
+                                    sat=random(60,80);</br>
+                                    </5>
+                                    let bri=random(60,80); let alp=random(60,80); let</br>
+                                    circleColor=color(hue,sat,bri,alp); let circleX=random(0,width); let</br>
+                                    circleY=random(0,height); let circleSize=random(10,50); noStroke();</br>
+                                    fill(circleColor); circle(circleX,circleY,circleSize); } } </p></br>
+
+
+
+
+                            <p>Here is the final result, I recorded a video and I am very happy with the result.
+                                <a href="https://youtu.be/Cc15zOMa2Ck">Click here</a>
+
+
+
+
+                            </p>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
