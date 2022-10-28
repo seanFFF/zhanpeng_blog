@@ -1,0 +1,74 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: post
+title:  "A3 blog2"
+date:   2022-10-25 02:17:35 +1000
+categories: jekyll update
+---
+
+# I need to make a birthday surprise!
+October 26th is my roommate's birthday, it just so happens that in coding assignment3 we need to use code to interact with our lives, a little ritual I wanted to give my friend some sense of ritual, so I had a plan to make a birthday present for my roommate using vs code 🎁 .
+
+The beginning of me is also very confused, roommate birthday gift to have what elements it, so I have to go to interrogate my own, roommate like which things, after thinking for a long time, I have the answer, these elements are.
+fireworks
+Starry sky
+The words "Happy Birthday"
+Looking up at the stars of the little man
+
+# My sketch: A fireworks🎆 feast, staged under the stars🌃
+I started with this sketch in my notebook.
+
+![abstract](https://b0.bdstatic.com/ugc/FAHf6h1RgHj7L9n-FdsDHAa7c5f1717be0c756f980c220d141e70a.jpg?x-bce-process=image/watermark,image_NDU0ZjAyZDU5YjQ1LnBuZw==,bucket_searchbox,w_43,text_QOWKoeWkj-S-r-W9pDhG,type_RlpMYW5UaW5nSGVp,size_43,x_29,y_29,interval_4,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1)
+
+# Happy Birthday Chinese Strokes
+My vision for the font floating in the air was to write the four words Happy Birthday in one stroke, as if someone had written birthday wishes in the sky, so I searched the Internet for a large library of resources that fit my requirements, and finally found such a library[https://github.com/chanind/hanzi-writer](https://github.com/chanind/hanzi-writer)
+So I followed the tutorial and started designing
+
+HTML
+![abstract](https://b0.bdstatic.com/ugc/FAHf6h1RgHj7L9n-FdsDHA28ebe4b81b7f8043e2e8a29820f1b205.jpg?x-bce-process=image/watermark,image_NDU0ZjAyZDU5YjQ1LnBuZw==,bucket_searchbox,w_28,text_QOWKoeWkj-S-r-W9pDhG,type_RlpMYW5UaW5nSGVp,size_28,x_19,y_19,interval_4,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1)
+JS
+![abstract](https://b0.bdstatic.com/ugc/FAHf6h1RgHj7L9n-FdsDHA21262b6f6e748c8f019bd6cff0f147ca.jpg?x-bce-process=image/watermark,image_NDU0ZjAyZDU5YjQ1LnBuZw==,bucket_searchbox,w_42,text_QOWKoeWkj-S-r-W9pDhG,type_RlpMYW5UaW5nSGVp,size_42,x_28,y_28,interval_4,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1)
+
+# Design of web background
+This is the background design of the web page.
+![abstract](https://b0.bdstatic.com/ugc/FAHf6h1RgHj7L9n-FdsDHA0cb5e525ea4028dd0e6345342cfe65f5.jpg?x-bce-process=image/watermark,image_NDU0ZjAyZDU5YjQ1LnBuZw==,bucket_searchbox,w_52,text_QOWKoeWkj-S-r-W9pDhG,type_RlpMYW5UaW5nSGVp,size_52,x_35,y_35,interval_4,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1)
+
+It looks simple, but in fact there are many details they are.
+The curvature of the ground, the
+sky, the earth, the gradation of the color of the characters, the
+character shape composition.
+
+CSS
+![abstract](https://b0.bdstatic.com/ugc/FAHf6h1RgHj7L9n-FdsDHAdf9352f1c663ff07e807ca474a7ffc4f.jpg?x-bce-process=image/watermark,image_NDU0ZjAyZDU5YjQ1LnBuZw==,bucket_searchbox,w_37,text_QOWKoeWkj-S-r-W9pDhG,type_RlpMYW5UaW5nSGVp,size_37,x_24,y_24,interval_4,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1)
+
+I gave the ground three times the width and made it an ellipse by border-radius 50% and centered it by positioning it, and finally gave the container an overflow: hidden
+
+The composition of a small figure is actually a circle (head), a rectangle (torso), three ellipses (two arms + the arc under the upper body), and two triangles (two legs) that are then positioned and put together.
+
+# Flashing effect
+The blinking effect is actually animated with keyframes
+![abstract](https://b0.bdstatic.com/ugc/FAHf6h1RgHj7L9n-FdsDHAdf9352f1c663ff07e807ca474a7ffc4f.jpg?x-bce-process=image/watermark,image_NDU0ZjAyZDU5YjQ1LnBuZw==,bucket_searchbox,w_37,text_QOWKoeWkj-S-r-W9pDhG,type_RlpMYW5UaW5nSGVp,size_37,x_24,y_24,interval_4,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1))
+
+# Fireworks effect
+The effect of fireworks I was looking for an engineer's tutorial on the Internet, this is the link to his teaching
+[https://juejin.cn/post/6916930617166807054](https://juejin.cn/post/6916930617166807054)
+
+Afterwards, I blast fireworks at random locations after the dynamic text disappears
+![abstract](https://b0.bdstatic.com/ugc/FAHf6h1RgHj7L9n-FdsDHA42520745215c8befe52a2bbd7ed8b1f9.jpg?x-bce-process=image/watermark,image_NDU0ZjAyZDU5YjQ1LnBuZw==,bucket_searchbox,w_47,text_QOWKoeWkj-S-r-W9pDhG,type_RlpMYW5UaW5nSGVp,size_47,x_31,y_31,interval_4,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1)
+
+# final website link
+This is the link to the website I made[https://seanffff.github.io/zhanpeng-fang-final-wibesite/](https://seanffff.github.io/zhanpeng-fang-final-wibesite/)
+
+# Interesting points of this code
+The code took me a long time to design, and since it was a secret birthday present I didn't tell my roommate that I asked him to prepare the surprise, and I stayed in my room for the past few days to design the code.
+I was very happy when my roommate was surprised to see this gift, because it was the first digital gift I gave to someone and the first digital gift my roommate received.
+In the future, if a friend in another country has a birthday, I can carefully prepare a digital birthday gift for him, which will not only impress my friends, but also allow me to receive the convenience and happiness that the code brings to me.
+
+
+
+
+
+
+
