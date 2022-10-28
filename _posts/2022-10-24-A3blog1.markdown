@@ -1,0 +1,43 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: post
+title:  "A3 blog1"
+date:   2022-10-24 02:17:35 +1000
+categories: jekyll update
+---
+
+# Practice digital birthday gifts
+Since I was going to use the code to create a birthday surprise for my roommate, I needed to do some practice before that, so I wanted to create an animation based on html, and css.
+The first thing that came to mind was the birthday cake, so I decided to use the cake as the base element to design the code for its rotation, so I started my extensive drawing process.
+
+# The process of drawing the cake
+To draw a cake is very complicated, I created a lot of div and css to draw the details of the cake, for example, the candle on the cake, I first divided it into candle, wick, and wax in html, and then in css to draw step by step, the rest of the cake also and change the method to draw.
+
+Here is a screenshot of the html and css code.
+HTML
+![abstract](https://b0.bdstatic.com/ugc/FAHf6h1RgHj7L9n-FdsDHA95647e4807f4f72aeb473a656ca244d0.jpg?x-bce-process=image/watermark,image_NDU0ZjAyZDU5YjQ1LnBuZw==,bucket_searchbox,w_38,text_QOWKoeWkj-S-r-W9pDhG,type_RlpMYW5UaW5nSGVp,size_38,x_25,y_25,interval_4,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1)
+
+CSS
+![abstract](https://b0.bdstatic.com/ugc/FAHf6h1RgHj7L9n-FdsDHA02af482a045154a396af9d1da20b91be.jpg?x-bce-process=image/watermark,image_NDU0ZjAyZDU5YjQ1LnBuZw==,bucket_searchbox,w_69,text_QOWKoeWkj-S-r-W9pDhG,type_RlpMYW5UaW5nSGVp,size_69,x_46,y_46,interval_4,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1)
+
+# Add animation
+This is the finished cake design. The first thing I thought of for its animation part was the keyframes animation, so I added that effect to all the named boxes. Finished the page
+![abstract](https://b0.bdstatic.com/ugc/FAHf6h1RgHj7L9n-FdsDHAd8f59ed8d654dbe7c3e0a4490c0642d4.jpg?x-bce-process=image/watermark,image_NDU0ZjAyZDU5YjQ1LnBuZw==,bucket_searchbox,w_29,text_QOWKoeWkj-S-r-W9pDhG,type_RlpMYW5UaW5nSGVp,size_29,x_19,y_19,interval_4,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1)
+
+# final website link
+This is the link to the website I made[https://seanfff.github.io/zhanpeng-fang-Experimental-exercises/](https://seanfff.github.io/zhanpeng-fang-Experimental-exercises/)
+
+# Interesting points of this code
+This exercise page taught me to use keyframes animations, which provided a great resource for the creation of my final website. The hardest part of creating this site was creating the boxes, rendering the corresponding boxes, and building the cake image, which was a lot of work, but I was very excited to see the finished cake, and this exercise allowed me to become more proficient at using CSS to create animations, and I'm looking forward to the final site.
+
+
+
+
+
+
+
+
+
+
